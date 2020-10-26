@@ -1,34 +1,22 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
-# Exercices en vrac (chapitre 7)
+# Exercices en vrac (chapitre 8)
 
 Avant de commencer, consultez les instructions à suivre dans [instructions.md](instructions.md)
+
 
 ## Objectifs
 
 Compléter les quelques exercices suivants en modifiant le code de [exercice.py](exercice.py):
 
-1. Écrire une fonction qui retourne le volume et la masse d’un ellipsoïde grâce à un tuple. Les paramètres sont les trois demi-axes et la masse volumique. On donnera à ces quatre paramètres des valeurs par défaut. On donne : 𝑉=4/3 𝜋𝑎𝑏𝑐. Tester cette fonction par des appels avec différents nombres d’arguments.
-2. En reprenant le 5e exercice du chapitre 6 sur les fréquences de lettres dans une phrase, écrivez un programme qui trie les lettres à partir du dictionnaire et qui retourne la lettre avec la fréquence la plus haute, en utilisant une fonction lambda.
-3. En utilisant la librairie « Turtle », dessinez un arbre en utilisant la récursivité.
-    Ressources : https://docs.python.org/3.3/library/turtle.html
-   
-   ![alt text](tree.png)
-5. Un programme principal saisit une chaîne d'ADN valide et une séquence d'ADN valide (valide signifie qu'elles ne sont pas vides et sont formées exclusivement d'une combinaison arbitraire de "a", "t", "g" ou "c"). 
-    
-    a) Écrire une fonction valide qui renvoie vrai si la saisie est valide, faux sinon.
-    
-    b) Écrire une fonction saisie qui effectue une saisie valide et renvoie la valeur saisie sous forme d'une chaîne de caractères.
-    
-    c) Écrire une fonction proportion qui reçoit deux arguments, la chaîne et la séquence et qui retourne la proportion de séquence dans la chaîne.
+1. Écrire un programme qui compare le contenu de deux fichiers et signale la première différence rencontrée.
 
-Le programme principal appelle la fonction saisie pour la chaîne et pour la séquence et affiche le résultat.
+2. Écrire un programme qui recopie un fichier texte en triplant tous les espaces entre les mots. (vous pouvez ouvrir deux fichiers avec l’instruction with).
 
-Exemple d’affichage:
-```python
-chaîne : attgcaatggtggtacatg
-séquence : ca
-Il y a 10.53 % de "ca".
-```
+3. Écrire un programme qui lit chaque ligne d’un fichier notes.txt (chaque ligne contient une note en pourcentage) et qui réécrit, dans un nouveau fichier, les notes avec, à coté, les mentions « A », « B », etc. en fonction d’un tableau de correspondance fourni.
 
+4. Reprenez l’exercice du livre de recettes et créer une base de données dans un fichier qui permet d’ajouter, modifier, supprimer des recettes. Vous êtes libre de choisir le type de format de fichier.
 
+5. Écrire un programme qui lit un fichier texte [exemple.txt](exemple.txt) et retourne une liste de tous les nombres présents dans le fichier, en ordre croissant. 
+
+6. Écrire un programme qui lit un fichier et qui recopie une ligne sur deux dans un autre fichier.
